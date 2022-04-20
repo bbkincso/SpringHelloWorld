@@ -2,9 +2,10 @@ package com.ait.microservice.springhelloworld;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
 @SpringBootApplication
-public class SpringHelloWorldApplication {
+public class SpringHelloWorldApplication extends SpringBootServletInitializer {
 
     public static void main(String[] args) {
 

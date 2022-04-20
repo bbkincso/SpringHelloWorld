@@ -10,12 +10,12 @@ import org.springframework.web.bind.annotation.*;
 public class HelloService {
     @RequestMapping("/")
     public String index() {
-        return "Hello World 2021....";
+        return "Hello World 2022....";
     }
 
     @RequestMapping("/abc")
     public String index2() {
-        return "Hello World 2021 abc";
+        return "Hello World 2022 abc";
     }
     @RequestMapping("/sayHello/{firstName}/{lastName}")
     public String helloWorldPathParam(@PathVariable String firstName, @PathVariable String lastName) {

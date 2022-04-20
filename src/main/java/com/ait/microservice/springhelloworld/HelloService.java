@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 public class HelloService {
     @RequestMapping("/")
     public String index() {
-        return "Hello World 2022....";
+        return "Hello World 2022...";
     }
 
     @RequestMapping("/abc")
